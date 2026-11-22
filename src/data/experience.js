@@ -1,0 +1,47 @@
+export const experience = [
+  {
+    id: 1,
+    company: "ROACS Corporation",
+    role: "Full Stack Developer",
+    type: "Full-time",
+    period: "February 2026 – Present",
+    current: true,
+    responsibilities: [
+      "Developing full-stack applications using React.js, Next.js, Node.js, Express.js, and Nest.js",
+      "Building RESTful APIs and backend services",
+      "Developing reusable frontend components",
+      "Integrating third-party APIs including Amadeus Flight APIs and payment gateways",
+      "Implementing MySQL and MongoDB database operations",
+      "Building authentication systems and role-based access control",
+      "Debugging, optimizing, and maintaining applications",
+    ],
+  },
+  {
+    id: 2,
+    company: "Smart Ideal Technologies",
+    role: "UI/UX Design Intern",
+    type: "Internship",
+    period: "July 2025 – October 2025",
+    current: false,
+    responsibilities: [
+      "Developed UI/UX design concepts and interface layouts",
+      "Applied user-centered design principles",
+      "Improved interface usability and visual consistency",
+      "Collaborated with team members on design requirements",
+    ],
+  },
+  {
+    id: 3,
+    company: "Equitas Small Finance Bank",
+    role: "Business Development Executive",
+    type: "Full-time",
+    period: "August 2023 – June 2024",
+    current: false,
+    responsibilities: [
+      "Identified customer requirements and recommended suitable banking services",
+      "Conducted customer visits and requirement discussions",
+      "Managed customer relationships and follow-ups",
+      "Supported account opening and onboarding processes",
+    ],
+  },
+];
